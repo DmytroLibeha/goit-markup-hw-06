@@ -1,0 +1,163 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-weight: 500;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo-color {
+  color: #2e2f42;
+}
+
+.logo .logo-color:hover,
+.logo .logo-color:focus,
+.logo .logo-color:active {
+  color: #4d5ae5;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.contacts {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contacts-links .link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-links .link:hover,
+.contacts-links .link:focus {
+  color: #404bbf;
+}
+
+.nav-links .link {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-links .link:hover,
+.nav-links .link:focus {
+  color: #404bbf;
+}
+
+.effective {
+  background-color: #2e2f42;
+}
+.title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+.advantage-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.advantage-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.our_team {
+  background-color: #f4f4fd;
+}
+.our_team_title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team {
+  background-color: #ffffff;
+}
+.team_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team_paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.portfolio_title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.banking {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.bank_app {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.foot {
+  background-color: #2e2f42;
+}
+.logo_color {
+  color: #f4f4fd;
+}
+.foot_paragraph {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
