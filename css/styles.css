@@ -331,3 +331,9 @@ p {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
