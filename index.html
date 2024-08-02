@@ -6,6 +6,13 @@
     <title>Effective Solutions for Your Business</title>
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.com/libraries/modern-normalize"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -17,149 +24,192 @@
     />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo"
-          >Web<span class="logo-color">Studio</span></a
-        >
-
-        <ul class="nav-links">
-          <li>
-            <a href="./index.html" class="link">Studio</a>
-          </li>
-          <li>
-            <a href="" class="link">Portfolio</a>
-          </li>
-          <li>
-            <a href="" class="link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contacts">
-        <ul class="contacts-links">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+    <!-- #region header -->
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo header-logo"
+            >Web<span class="logo-color">Studio</span></a
+          >
+          <ul class="nav-links">
+            <li>
+              <a href="./index.html" class="link">Studio</a>
+            </li>
+            <li>
+              <a href="" class="link">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <ul class="contacts-links">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
+    <!-- #endregion header -->
 
     <main>
+      <!-- #region hero -->
       <section class="effective">
-        <h1 class="title">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+        <div class="container hero-container">
+          <h1 class="title">Effective Solutions for Your Business</h1>
+          <button class="button" type="button">Order Service</button>
+        </div>
       </section>
+      <!-- #endregion hero -->
 
-      <section>
-        <h2>Advantages</h2>
-        <ul class="advantage">
-          <li>
-            <h3 class="advantage-title">Strategy</h3>
-            <p class="advantage-paragraph">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantage-title">Punctuality</h3>
-            <p class="advantage-paragraph">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantage-title">Diligence</h3>
-            <p class="advantage-paragraph">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantage-title">Technologies</h3>
-            <p class="advantage-paragraph">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <!-- #region section2 -->
+      <section class="section first">
+        <div class="container">
+          <h2 class="nothing">Advantages</h2>
+          <ul class="advantage">
+            <li class="advantage-items">
+              <h3 class="advantage-title">Strategy</h3>
+              <p class="advantage-paragraph">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="advantage-items">
+              <h3 class="advantage-title">Punctuality</h3>
+              <p class="advantage-paragraph">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="advantage-items">
+              <h3 class="advantage-title">Diligence</h3>
+              <p class="advantage-paragraph">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="advantage-items">
+              <h3 class="advantage-title">Technologies</h3>
+              <p class="advantage-paragraph">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
+      <!-- #endregion section2 -->
 
-      <section class="our_team">
-        <h2 class="our_team_title">Our Team</h2>
+      <!-- #region section3 -->
+      <section class="section our_team">
+        <div class="container">
+          <h2 class="our_team_title">Our Team</h2>
+          <ul class="team-list">
+            <li class="team">
+              <img src="./images/img-3.jpg" alt="man" width="264" />
+              <div class="team-text">
+                <h3 class="team_title">Mark Guerrero</h3>
+                <p class="team_paragraph">Product Designer</p>
+              </div>
+            </li>
+            <li class="team">
+              <img src="./images/img-2.jpg" alt="man2" width="264" />
+              <div class="team-text">
+                <h3 class="team_title">Tom Ford</h3>
+                <p class="team_paragraph">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team">
+              <img src="./images/img-1.jpg" alt="woman" width="264" />
+              <div class="team-text">
+                <h3 class="team_title">Camila Garcia</h3>
+                <p class="team_paragraph">Marketing</p>
+              </div>
+            </li>
+            <li class="team">
+              <img src="./images/img.jpg" alt="man3" width="264" />
+              <div class="team-text">
+                <h3 class="team_title">Daniel Wilson</h3>
+                <p class="team_paragraph">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- #endregion section3 -->
 
-        <ul>
-          <li class="team">
-            <img src="./images/img-3.jpg" alt="man" width="264" />
-            <h3 class="team_title">Mark Guerrero</h3>
-            <p class="team_paragraph">Product Designer</p>
-          </li>
-          <li class="team">
-            <img src="./images/img-2.jpg" alt="man2" width="264" />
-            <h3 class="team_title">Tom Ford</h3>
-            <p class="team_paragraph">Frontend Developer</p>
-          </li>
-          <li class="team">
-            <img src="./images/img-1.jpg" alt="woman" width="264" />
-            <h3 class="team_title">Camila Garcia</h3>
-            <p class="team_paragraph">Marketing</p>
-          </li>
-          <li class="team">
-            <img src="./images/img.jpg" alt="man3" width="264" />
-            <h3 class="team_title">Daniel Wilson</h3>
-            <p class="team_paragraph">UI Designer</p>
-          </li>
-        </ul>
+      <!-- #region section4 -->
+      <section class="section porfolio">
+        <div class="container">
+          <h2 class="portfolio_title">Our Portfolio</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-items">
+              <img src="./images/img4.jpg" alt="application" width="360" />
+              <div class="portfolio-item-text">
+                <h3 class="banking">Banking App</h3>
+                <p class="bank_app">App</p>
+              </div>
+            </li>
+            <li class="portfolio-items">
+              <img src="./images/img5.jpg" alt="phone" width="360" />
+              <div class="portfolio-item-text">
+                <h3 class="banking">Cashless Payment</h3>
+                <p class="bank_app">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-items">
+              <img src="./images/img6.jpg" alt="laptop" width="360" />
+              <div class="portfolio-item-text">
+                <h3 class="banking">Meditation App</h3>
+                <p class="bank_app">App</p>
+              </div>
+            </li>
+            <li class="portfolio-items">
+              <img src="./images/img7.jpg" alt="taxi" width="360" />
+              <div class="portfolio-item-text">
+                <h3 class="banking">Taxi Service</h3>
+                <p class="bank_app">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-items">
+              <img src="./images/img8.jpg" alt="phone2" width="360" />
+              <div class="portfolio-item-text">
+                <h3 class="banking">Screen Illustrations</h3>
+                <p class="bank_app">Design</p>
+              </div>
+            </li>
+            <li class="portfolio-items">
+              <img src="./images/img9.jpg" alt="woman2" width="360" />
+              <div class="portfolio-item-text">
+                <h3 class="banking">Online Courses</h3>
+                <p class="bank_app">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2 class="portfolio_title">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img src="./images/img4.jpg" alt="application" width="360" />
-            <h3 class="banking">Banking App</h3>
-            <p class="bank_app">App</p>
-          </li>
-          <li>
-            <img src="./images/img5.jpg" alt="phone" width="360" /> >
-            <h3 class="banking">Cashless Payment</h3>
-            <p class="bank_app">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/img6.jpg" alt="laptop" width="360" />
-            <h3 class="banking">Meditation App</h3>
-            <p class="bank_app">App</p>
-          </li>
-          <li>
-            <img src="./images/img7.jpg" alt="taxi" width="360" />
-            <h3 class="banking">Taxi Service</h3>
-            <p class="bank_app">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/img8.jpg" alt="phone2" width="360" />
-            <h3 class="banking">Screen Illustrations</h3>
-            <p class="bank_app">Design</p>
-          </li>
-          <li>
-            <img src="./images/img9.jpg" alt="woman2" width="360" />
-            <h3 class="banking">Online Courses</h3>
-            <p class="bank_app">Marketing</p>
-          </li>
-        </ul>
-      </section>
+      <!-- #endregion section4 -->
     </main>
 
+    <!-- #region footer -->
     <footer class="foot">
-      <a href="./index.html" class="logo"
-        >Web<span class="logo_color">Studio</span></a
-      >
-      <p class="foot_paragraph">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="logo footer-logo"
+          >Web<span class="logo_color">Studio</span></a
+        >
+        <p class="foot_paragraph">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
+    <!-- #endregion footer -->
   </body>
 </html>
