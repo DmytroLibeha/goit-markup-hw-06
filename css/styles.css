@@ -11,9 +11,9 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
   text-decoration: none;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-color {
@@ -122,6 +122,7 @@ body {
   min-width: 169px;
   height: 56px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -261,7 +262,6 @@ p {
 .team-list,
 .team-svg-list {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 24px;
 }
@@ -269,6 +269,8 @@ p {
 .team {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-text {
@@ -292,6 +294,10 @@ p {
   color: #434455;
   margin-bottom: 8px;
   text-align: center;
+}
+
+.team-svg {
+  fill: #f4f4fd;
 }
 
 .team-svg-item {
@@ -339,6 +345,34 @@ p {
 .portfolio-items {
   flex-basis: calc((100% - 48px) / 3);
   flex-shrink: 0;
+}
+
+.portfolio-items:hover .portfolio-cover-text {
+  transform: translate(0);
+}
+
+.portfolio-cover-wraps {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-cover-text {
+  position: absolute;
+  top: 0;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding-top: 40px;
+  padding-right: 32px;
+  padding-bottom: 164px;
+  padding-left: 32px;
+  transform: translateY(100%);
+  transition: transform 300ms linear;
 }
 
 .portfolio-item-text {
