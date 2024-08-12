@@ -496,6 +496,11 @@ p {
   align-items: baseline;
 }
 
+.team-svg-list-footer {
+  gap: 16px;
+  display: flex;
+}
+
 img {
   display: block;
   height: auto;
