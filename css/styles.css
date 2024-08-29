@@ -386,10 +386,14 @@ button {
 /* #region section4 */
 
 .portfolio {
-  padding: 96px 0;
+  padding: 96px 16px;
 }
 .portfolio_title {
   margin-bottom: 72px;
+  font: 700 36px / 1.11111 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
 }
 .portfolio-list {
   display: flex;
@@ -476,6 +480,7 @@ button {
   display: flex;
   justify-content: center;
   margin-bottom: 16px;
+  padding: 0;
 }
 .logo_color {
   color: #f4f4fd;
@@ -807,7 +812,6 @@ button {
     display: none;
   }
   .logo {
-    padding: 24px 0;
     margin-right: 120px;
   }
   .nav-links {
