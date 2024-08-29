@@ -390,6 +390,7 @@ button {
 }
 .portfolio_title {
   margin-bottom: 72px;
+  margin-top: 96px;
   font: 700 36px / 1.11111 "Roboto", sans-serif;
 letter-spacing: 0.02em;
 text-align: center;
@@ -1077,6 +1078,10 @@ color: #2e2f42;
   /* section4 */
   .portfolio {
     padding: 120px 0;
+  }
+
+  .portfolio_title {
+    margin-top: 120px;
   }
 
   .portfolio-items {
