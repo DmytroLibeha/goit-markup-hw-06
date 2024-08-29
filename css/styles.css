@@ -392,9 +392,9 @@ button {
   margin-bottom: 72px;
   margin-top: 96px;
   font: 700 36px / 1.11111 "Roboto", sans-serif;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .portfolio-list {
   display: flex;
@@ -597,7 +597,7 @@ color: #2e2f42;
 .sub-form-btn:hover,
 .sub-form-btn:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  background: #404bbf;
 }
 
 .sub-form-btn-icon {
@@ -1026,7 +1026,7 @@ color: #2e2f42;
   .button:hover,
   .button:focus {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
+    background: #404bbf;
   }
 
   /* section2 */
